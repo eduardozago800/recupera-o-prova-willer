@@ -44,11 +44,11 @@ CREATE TABLE transacoes_cripto (
 
 
 INSERT INTO investidores (nome, cpf, nivel_experiencia) VALUES
-('Pedro Henrique', '63829147520', 3),
-('Lucas Martins', '72938461503', 1),
-('Rafael Almeida', '81527394602', 4),
-('Bruno Ferreira', '49281637504', 2),
-('Eduardo Rodrigues', '58392017461', 5);
+('Brayan de Souza', '63829147520', 3),
+('Nicolas Augusto', '72938461503', 1),
+('Noah Navarro', '81527394602', 4),
+('Victor Mello', '49281637504', 2),
+('Arthur Rossi', '58392017461', 5);
 
 INSERT INTO carteiras
 (investidor_id, endereco_wallet, rede_blockchain, saldo_usd, status)
